@@ -1,0 +1,29 @@
+
+
+<ion-content class="Home" padding>
+    <br>
+    <br>
+    <br>
+  <h1>WELCOME TO RUGBY SCORE</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <ion-item class="item">
+    <ion-input id="inpt" type="text" placeholder="Home Team" #Home></ion-input>
+  </ion-item>
+  <!-- fdsaff<ion-item> -->
+    <ion-label id="vs">VS</ion-label>
+  <!-- </ion-item> -->
+  <ion-item class="item">
+    <ion-input  id="inpt" type="text" placeholder="Away Team" #Away></ion-input>
+  </ion-item><br><br>
+
+      <button block ion-button full round color="bl"  (click)="signIn(Home.value,Away.value)">Start</button>
+
+</ion-content>
+

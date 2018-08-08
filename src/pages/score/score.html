@@ -1,0 +1,61 @@
+
+
+<ion-content padding class="header">
+
+
+<ion-grid class="w"  >
+    <ion-row  center class="p">
+                  
+              <ion-col col-5  offset-1 class="v"   (click)="box(1)">
+
+                  
+
+                <div class="label" >
+                    <ion-label id="lab">HOME </ion-label>
+                </div>
+                <ion-label id="label">{{team1}} </ion-label>
+
+                  
+                
+               
+                <ion-label id="score" color="secondary" >{{homescore}}</ion-label>
+              </ion-col>
+  
+        
+              <ion-col col-5  offset-1 class="c" (click)="box(2)">
+                
+
+                  
+                  <div class="label" >
+                      <ion-label id="lab">AWAY</ion-label>                  
+                  </div>
+                  <ion-label id="label">{{team2}} </ion-label>
+                
+              <ion-label id="score" color="secondary" >{{awayscore}}</ion-label>
+              </ion-col>
+        
+    </ion-row>
+</ion-grid>
+<div class="buttons" >
+
+<button   ion-button color="bl" outline  class="add" round (click)="tryScore ()" >Try 5</button>
+<button ion-button color="bl"  class="add" round (click)="tryScoreUndo ()" class="undo"><ion-icon name="undo"></ion-icon></button><br>
+<button ion-button color="bl"  outline class="add" round (click)="conversion ()">Conversion 2</button> <button ion-button color="bl"   class="undo" round (click)="conversionUndo ()"><ion-icon name="undo"></ion-icon></button><br>
+<button ion-button color="bl" outline class="add" round (click)="penalty ()">Penalty kick 3</button> <button ion-button color="bl"  class="undo" round (click)="penaltyUndo ()"><ion-icon name="undo"></ion-icon></button><br>
+<button ion-button color="bl" outline class="add" round (click)="drop ()">Drop goal 3</button> <button ion-button color="bl"  class="undo" round (click)="dropUndo ()"><ion-icon name="undo"></ion-icon></button><br>
+<button block ion-button   round color="bl" class="adds" round  (click)="reset()">Reset</button>
+
+</div>
+
+
+
+
+
+  <!-- A try is awarded when a player places the ball down in their opponent’s dead ball area behind the goal. 5 points are awarded.
+A conversion is a free kick that the team is awarded after a try to earn 2 bonus points. A successful kick needs to pass between the upper posts and top bar on the goal.
+A penalty kick will gain a team 3 points and is awarded to a team when the opposing team causes an infringement.
+A drop goal can be kicked out of the hand as long as the ball bounces first and can earn a team 3 points -->
+
+
+
+</ion-content>

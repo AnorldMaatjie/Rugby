@@ -1,0 +1,113 @@
+page-score {
+    .header{
+
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../assets/imgs/pp4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+
+    }
+
+    #label{
+         color: black;
+
+           }
+
+    // .active,.column:hover{ 
+    //     background-color:aqua; 
+    //     color: aqua; 
+    //     // height: 10000px;    
+    //     // left: 0;
+    //     // position: absolute;  
+    //     // top: -5000px;
+    //     // width: 100%;
+    //     // z-index: -1;        
+    // }
+    // .btn{
+    //     display: block;
+    //     justify-content: center;
+    //     align-items: center;
+    //     height: 40rem;
+    // }
+    #label{
+
+        font-size: 20px;
+         // padding-top: 50px;
+     text-align: center;
+     text-shadow: 5em;
+     color: white;
+        }
+    #score{
+
+        font-size: 70px;
+         // padding-top: 50px;
+     text-align: center;
+    
+      color:white;
+    }
+    .add{
+        width:75%;
+        color: white;
+    }
+  .c{
+     background-color: rgba(255, 255, 255, 0);
+     box-shadow:0px 0px 5px white;
+     border-radius: 50px;
+     height: 300px;
+    
+  }
+
+  
+.p :hover{
+    background-color: rgba(255, 255, 255, 0.116)
+    }
+    p :active{
+        background-color: rgba(255, 255, 255, 0.116)
+        }
+    
+
+   .v{
+    background-color:rgba(255, 255, 255, 0);
+    height: 300px;
+    box-shadow: 0px 0px 5px white;
+    border: 1px solid black;
+ 
+    border-radius: 50px;
+    
+   }
+   .p{
+       display: flex;
+       justify-content: center;
+       align-content:center;
+       
+   }
+   ion-label{
+       padding-top: 40%
+   }
+  #lab{
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.label{
+position: relative;
+top: -50px;
+}
+.adds{
+
+    width: 97%;
+}
+.w{
+    position: relative;
+    top: 25px;
+}
+.buttons{
+    position: relative;
+    bottom: -66px;
+
+}
+
+}
+    
+    
